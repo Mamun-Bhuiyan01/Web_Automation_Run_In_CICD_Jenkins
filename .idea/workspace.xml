@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eea0673a-1bf2-4d9f-a9e8-f3a2ee6365f7" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2jNWMR0D7aqWNkdPA5pomwnqIY7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.<default>.executor": "Debug",
+    "TestNG.F:/javabasic & sqa/WebAutomationProject/testng.xml.executor": "Run",
+    "TestNG.F:/javabasicAndsqa/WebAutomationProject1/testsuite.xml.executor": "Run",
+    "TestNG.TestLoginPage (1).executor": "Run",
+    "TestNG.TestLoginPage.executor": "Run",
+    "TestNG.TestLoginPage.test_login_with_invalid_credentials.executor": "Run",
+    "TestNG.TestLoginPage.test_login_with_valid_credentials.executor": "Run",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/mdmam/Downloads/Web_Automation_Run_In_CICD_Jenkins-main/Web_Automation_Run_In_CICD_Jenkins-main",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Utilities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.F:/javabasicAndsqa/WebAutomationProject1/testsuite.xml">
+    <configuration name="F:/javabasic &amp; sqa/WebAutomationProject/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="F:/javabasicAndsqa/WebAutomationProject1/testsuite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationProject" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testsuite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLoginPage.test_login_with_invalid_credentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestLoginPage" />
+      <option name="METHOD_NAME" value="test_login_with_invalid_credentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLoginPage.test_login_with_valid_credentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testcases.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Testcases" />
+      <option name="MAIN_CLASS_NAME" value="testcases.TestLoginPage" />
+      <option name="METHOD_NAME" value="test_login_with_valid_credentials" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="WebAutomationProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.F:/javabasicAndsqa/WebAutomationProject1/testsuite.xml" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
+        <item itemvalue="TestNG.F:/javabasic &amp; sqa/WebAutomationProject/testng.xml" />
+        <item itemvalue="TestNG.TestLoginPage.test_login_with_valid_credentials" />
+        <item itemvalue="TestNG.TestLoginPage.test_login_with_invalid_credentials" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eea0673a-1bf2-4d9f-a9e8-f3a2ee6365f7" name="Changes" comment="" />
+      <created>1721227977591</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1721227977591</updated>
+    </task>
+    <servers />
+  </component>
+</project>

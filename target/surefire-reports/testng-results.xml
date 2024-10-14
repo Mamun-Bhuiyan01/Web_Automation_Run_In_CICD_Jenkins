@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-14T18:30:51 BDT" name="Suite" finished-at="2024-10-14T18:37:21 BDT" duration-ms="389793">
+    <groups>
+    </groups>
+    <test started-at="2024-10-14T18:30:51 BDT" name="Automation" finished-at="2024-10-14T18:37:21 BDT" duration-ms="389793">
+      <class name="testcases.TestLoginPage">
+        <test-method is-config="true" signature="openabrowser()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:30:51 BDT" name="openabrowser" finished-at="2024-10-14T18:32:19 BDT" duration-ms="88132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openabrowser -->
+        <test-method is-config="true" signature="loadpage()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:32:20 BDT" name="loadpage" finished-at="2024-10-14T18:32:40 BDT" duration-ms="20166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadpage -->
+        <test-method signature="test_login_with_invalid_credentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:32:40 BDT" name="test_login_with_invalid_credentials" data-provider="InvalidCredentials" finished-at="2024-10-14T18:32:49 BDT" duration-ms="9025" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mamun01@yopmai.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mamun123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Your email or password is incorrect!]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_with_invalid_credentials -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:32:49 BDT" name="closedriver" finished-at="2024-10-14T18:32:52 BDT" duration-ms="2602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="openabrowser()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:32:52 BDT" name="openabrowser" finished-at="2024-10-14T18:33:03 BDT" duration-ms="11287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openabrowser -->
+        <test-method is-config="true" signature="loadpage()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:33:03 BDT" name="loadpage" finished-at="2024-10-14T18:33:18 BDT" duration-ms="14366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadpage -->
+        <test-method signature="test_login_with_invalid_credentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:33:18 BDT" name="test_login_with_invalid_credentials" data-provider="InvalidCredentials" finished-at="2024-10-14T18:33:19 BDT" duration-ms="1301" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mamun01.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mamun12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please include an '@' in the email address. 'mamun01.com' is missing an '@'.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_with_invalid_credentials -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:33:19 BDT" name="closedriver" finished-at="2024-10-14T18:33:20 BDT" duration-ms="1601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="openabrowser()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:33:20 BDT" name="openabrowser" finished-at="2024-10-14T18:33:24 BDT" duration-ms="3557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openabrowser -->
+        <test-method is-config="true" signature="loadpage()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:33:24 BDT" name="loadpage" finished-at="2024-10-14T18:33:40 BDT" duration-ms="15709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadpage -->
+        <test-method signature="test_login_with_invalid_credentials(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:33:40 BDT" name="test_login_with_invalid_credentials" data-provider="InvalidCredentials" finished-at="2024-10-14T18:33:40 BDT" duration-ms="395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mamun12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Please fill out this field.]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_with_invalid_credentials -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:33:40 BDT" name="closedriver" finished-at="2024-10-14T18:33:41 BDT" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="openabrowser()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:33:41 BDT" name="openabrowser" finished-at="2024-10-14T18:33:43 BDT" duration-ms="1624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openabrowser -->
+        <test-method is-config="true" signature="loadpage()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:33:43 BDT" name="loadpage" finished-at="2024-10-14T18:33:58 BDT" duration-ms="15533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadpage -->
+        <test-method signature="test_login_with_invalid_email()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:33:58 BDT" name="test_login_with_invalid_email" finished-at="2024-10-14T18:33:59 BDT" duration-ms="420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_with_invalid_email -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:33:59 BDT" name="closedriver" finished-at="2024-10-14T18:33:59 BDT" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="openabrowser()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:33:59 BDT" name="openabrowser" finished-at="2024-10-14T18:34:01 BDT" duration-ms="2018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openabrowser -->
+        <test-method is-config="true" signature="loadpage()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:34:01 BDT" name="loadpage" finished-at="2024-10-14T18:34:14 BDT" duration-ms="13461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadpage -->
+        <test-method signature="test_login_with_invalid_email_password()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:34:14 BDT" name="test_login_with_invalid_email_password" finished-at="2024-10-14T18:34:15 BDT" duration-ms="803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_with_invalid_email_password -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:34:15 BDT" name="closedriver" finished-at="2024-10-14T18:34:16 BDT" duration-ms="406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="openabrowser()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:34:16 BDT" name="openabrowser" finished-at="2024-10-14T18:34:19 BDT" duration-ms="3351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openabrowser -->
+        <test-method is-config="true" signature="loadpage()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:34:19 BDT" name="loadpage" finished-at="2024-10-14T18:34:38 BDT" duration-ms="19067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadpage -->
+        <test-method signature="test_login_with_invalid_password()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:34:38 BDT" name="test_login_with_invalid_password" finished-at="2024-10-14T18:34:41 BDT" duration-ms="2672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_with_invalid_password -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:34:41 BDT" name="closedriver" finished-at="2024-10-14T18:34:41 BDT" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="openabrowser()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:34:41 BDT" name="openabrowser" finished-at="2024-10-14T18:34:43 BDT" duration-ms="1870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openabrowser -->
+        <test-method is-config="true" signature="loadpage()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:34:43 BDT" name="loadpage" finished-at="2024-10-14T18:35:05 BDT" duration-ms="21644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadpage -->
+        <test-method signature="test_login_with_valid_credentials()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:35:05 BDT" name="test_login_with_valid_credentials" description="Test with valid username and password" finished-at="2024-10-14T18:35:28 BDT" duration-ms="23499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_with_valid_credentials -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:35:28 BDT" name="closedriver" finished-at="2024-10-14T18:35:30 BDT" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="openabrowser()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:35:30 BDT" name="openabrowser" finished-at="2024-10-14T18:35:39 BDT" duration-ms="9113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openabrowser -->
+        <test-method is-config="true" signature="loadpage()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:35:39 BDT" name="loadpage" finished-at="2024-10-14T18:35:55 BDT" duration-ms="15823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadpage -->
+        <test-method signature="test_login_with_without_credentials()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:35:55 BDT" name="test_login_with_without_credentials" finished-at="2024-10-14T18:35:56 BDT" duration-ms="1021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_with_without_credentials -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:35:56 BDT" name="closedriver" finished-at="2024-10-14T18:35:57 BDT" duration-ms="973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="openabrowser()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:35:57 BDT" name="openabrowser" finished-at="2024-10-14T18:35:59 BDT" duration-ms="1845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openabrowser -->
+        <test-method is-config="true" signature="loadpage()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:35:59 BDT" name="loadpage" finished-at="2024-10-14T18:36:14 BDT" duration-ms="15734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadpage -->
+        <test-method signature="test_login_with_without_email()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:36:14 BDT" name="test_login_with_without_email" finished-at="2024-10-14T18:36:15 BDT" duration-ms="1040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_with_without_email -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:36:15 BDT" name="closedriver" finished-at="2024-10-14T18:36:16 BDT" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="openabrowser()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:36:16 BDT" name="openabrowser" finished-at="2024-10-14T18:36:19 BDT" duration-ms="3204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openabrowser -->
+        <test-method is-config="true" signature="loadpage()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:36:19 BDT" name="loadpage" finished-at="2024-10-14T18:36:35 BDT" duration-ms="15202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadpage -->
+        <test-method signature="test_login_with_without_password()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:36:35 BDT" name="test_login_with_without_password" finished-at="2024-10-14T18:36:35 BDT" duration-ms="677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_with_without_password -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:36:35 BDT" name="closedriver" finished-at="2024-10-14T18:36:36 BDT" duration-ms="1007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="openabrowser()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:36:36 BDT" name="openabrowser" finished-at="2024-10-14T18:36:38 BDT" duration-ms="1639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openabrowser -->
+        <test-method is-config="true" signature="loadpage()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:36:38 BDT" name="loadpage" finished-at="2024-10-14T18:36:51 BDT" duration-ms="12718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadpage -->
+        <test-method signature="test_login_with_wrong_credentials()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:36:51 BDT" name="test_login_with_wrong_credentials" finished-at="2024-10-14T18:36:53 BDT" duration-ms="2116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_with_wrong_credentials -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:36:53 BDT" name="closedriver" finished-at="2024-10-14T18:36:53 BDT" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+        <test-method is-config="true" signature="openabrowser()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:36:53 BDT" name="openabrowser" finished-at="2024-10-14T18:36:55 BDT" duration-ms="1811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openabrowser -->
+        <test-method is-config="true" signature="loadpage()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:36:55 BDT" name="loadpage" finished-at="2024-10-14T18:37:15 BDT" duration-ms="19434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadpage -->
+        <test-method signature="test_login_with_wrong_email()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:37:15 BDT" name="test_login_with_wrong_email" finished-at="2024-10-14T18:37:18 BDT" duration-ms="3170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_with_wrong_email -->
+        <test-method is-config="true" signature="closedriver()[pri:0, instance:testcases.TestLoginPage@35dab4eb]" started-at="2024-10-14T18:37:18 BDT" name="closedriver" finished-at="2024-10-14T18:37:21 BDT" duration-ms="2675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedriver -->
+      </class> <!-- testcases.TestLoginPage -->
+    </test> <!-- Automation -->
+  </suite> <!-- Suite -->
+</testng-results>
